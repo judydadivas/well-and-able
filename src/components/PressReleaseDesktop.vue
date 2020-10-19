@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import image from '../assets/img24.png'
+import image from '../assets/img23.png'
 import HeaderImageVue from './HeaderImage.vue'
 import PreviousPressVue from './PreviousPress.vue'
 export default {

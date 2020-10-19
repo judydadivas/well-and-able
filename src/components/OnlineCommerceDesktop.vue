@@ -120,20 +120,16 @@
         </div>
       </div>
     </div>
-
-    <footerr/>
   </q-layout>
 </template>
 
 <script>
-import image from '../assets/img19.png'
-import FooterVue from './Footer.vue'
+import image from '../assets/img33.png'
 import HousesVue from './Houses.vue'
 export default {
   name: 'OnlineCommerDesktop',
   components: {
-    house: HousesVue,
-    footerr: FooterVue
+    house: HousesVue
   },
   data () {
     return {

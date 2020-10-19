@@ -5,6 +5,7 @@
         image = "img\img19.png"
         headerTitle = "Product Catalog"/>
       <div class = "q-pa-xl"><desktop/></div>
+      <footerr/>
     </div>
 
     <div v-if="$q.platform.is.mobile">
@@ -22,10 +23,12 @@
 import OnlineCommerceDesktopVue from 'src/components/OnlineCommerceDesktop.vue'
 import HeaderImageVue from 'src/components/HeaderImage.vue'
 import OnlineCommerceMobileVue from 'src/components/OnlineCommerceMobile.vue'
+import FooterVue from 'src/components/Footer.vue'
 export default {
   name: 'OnlineCommerce',
   components: {
     desktop: OnlineCommerceDesktopVue,
+    footerr: FooterVue,
     headerImage: HeaderImageVue,
     mobile: OnlineCommerceMobileVue
   }

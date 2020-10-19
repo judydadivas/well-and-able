@@ -263,7 +263,7 @@
 </template>
 
 <script>
-import image from '../assets/img12.png'
+import image from '../assets/img11.png'
 import CardVue from './Card.vue'
 import FooterVue from './Footer.vue'
 export default {
