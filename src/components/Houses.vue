@@ -7,7 +7,7 @@
             <div class="text-bold">{{ title}}</div>
         </q-card-section>
 
-        <q-card-actions class = "bg-grey-2">
+        <q-card-actions class = "bg-grey-2 q-pb-md">
             <q-btn
                 rounded label="View details."
                 class = "text-capitalize text-weight-thin"
