@@ -13,15 +13,23 @@
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
       </div>
-        <img src="~assets/img01.jpg" class="q-pl-xl q-py-lg"/>
+      <q-item
+        clickable
+        v-ripple
+         to ="/"
+      >
+        <q-item-section>
+          <img src="~assets/img01.jpg" class="q-pl-xl q-py-md"/>
+        </q-item-section>
+      </q-item>
 
       <q-tabs v-if="$q.platform.is.desktop" class="text-dark q-pl-xl" indicator-color="transparent" v-model="tab" shrink stretch >
-        <q-route-tab to="/#" label="Project" exact/>
-        <q-route-tab to="/#" label="Building System" exact/>
-        <q-route-tab to="/#" label="Materials" exact/>
-        <q-route-tab to="/pressRelease" label="Press" exact/>
-        <q-route-tab to="/aboutUs" label="About" exact/>
-        <q-route-tab to="/#" label="Contact" exact/>
+        <q-route-tab to="/#" label="Project" />
+        <q-route-tab to="/#" label="Building System" />
+        <q-route-tab to="/#" label="Materials" />
+        <q-route-tab to="/pressRelease" label="Press" />
+        <q-route-tab to="/aboutUs" label="About" />
+        <q-route-tab to="/#" label="Contact" />
       </q-tabs>
 
       <q-space/>
