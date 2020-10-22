@@ -1,116 +1,114 @@
 <template>
-    <div>
-        <div class = "row" style="width:100%">
-      <div class = "col-3">
-        <div class = "text-grey-9 q-pa-xs text-bold">TOTAL AREA</div>
-          <q-option-group
-            v-model="group"
-            :options="totalArea"
-            size="xs"
-            color="dark"
-            class = "q-pb-lg"
-          />
+  <div class = "row" style="width:100%">
+    <div class = "col-3">
+      <div class = "text-grey-9 q-pa-xs text-bold">TOTAL AREA</div>
+      <q-option-group
+        v-model="group"
+        :options="totalArea"
+        size="xs"
+        color="dark"
+        class = "q-pb-lg"
+      />
 
-          <div class = "text-grey-9 q-pa-xs text-bold">COST PER SQ.M (USD)</div>
-            <q-option-group
-              v-model="group1"
-              :options="cost"
-              size="xs"
-              color="dark"
-              class = "q-pb-lg"
-            />
+      <div class = "text-grey-9 q-pa-xs text-bold">COST PER SQ.M (USD)</div>
+      <q-option-group
+        v-model="group1"
+        :options="cost"
+        size="xs"
+        color="dark"
+        class = "q-pb-lg"
+      />
 
-          <div class = "text-grey-9 q-pa-xs text-bold">STOREY</div>
-            <q-option-group
-              v-model="group2"
-              :options="storey"
-              size="xs"
-              color="dark"
-              class = "q-pb-lg"
-            />
-       </div>
+      <div class = "text-grey-9 q-pa-xs text-bold">STOREY</div>
+      <q-option-group
+        v-model="group2"
+        :options="storey"
+        size="xs"
+        color="dark"
+        class = "q-pb-lg"
+      />
+    </div>
 
-      <div class = "col-9 q-pl-xs">
-        <div class = "row q-col-gutter-sm q-pb-lg">
-          <div class = "col">
-            <house
-              image = "img\img32.png"
-              area = "337 SQ. M"
-              title = "WAD4020-337D"
-              link = "/"/>
-          </div>
-
-          <div class = "col">
-            <house
-              image = "img\img33.png"
-              area = "320 SQ. M"
-              title = "WAD4019-320S"
-              link = "/"/>
-          </div>
-
-          <div class = "col">
-            <house
-              image = "img\img34.png"
-              area = "221 SQ. M"
-              title = "WAD4017-212D"
-              link = "/"/>
-          </div>
+    <div class = "col-9 q-pl-xs">
+      <div class = "row q-col-gutter-sm q-pb-lg">
+        <div class = "col">
+          <house
+            image = "img\img32.png"
+            area = "337 SQ. M"
+            title = "WAD4020-337D"
+            link = "/"/>
         </div>
 
-        <div class = "row q-col-gutter-md q-pb-lg">
-          <div class = "col">
-            <house
-              image = "img\img32.png"
-              area = "337 SQ. M"
-              title = "WAD4020-337D"
-              link = "/"/>
-          </div>
-
-          <div class = "col">
-            <house
-              image = "img\img33.png"
-              area = "320 SQ. M"
-              title = "WAD4019-320S"
-              link = "/"/>
-          </div>
-
-          <div class = "col">
-            <house
-              image = "img\img34.png"
-              area = "221 SQ. M"
-              title = "WAD4017-212D"
-              link = "/"/>
-          </div>
+        <div class = "col">
+          <house
+            image = "img\img33.png"
+            area = "320 SQ. M"
+            title = "WAD4019-320S"
+            link = "/"/>
         </div>
 
-        <div class = "row q-col-gutter-md q-pb-lg">
-          <div class = "col">
-            <house
-              image = "img\img32.png"
-              area = "337 SQ. M"
-              title = "WAD4020-337D"
-              link = "/"/>
-          </div>
+        <div class = "col">
+          <house
+            image = "img\img34.png"
+            area = "221 SQ. M"
+            title = "WAD4017-212D"
+            link = "/"/>
+        </div>
+      </div>
 
-          <div class = "col">
-            <house
-              image = "img\img33.png"
-              area = "320 SQ. M"
-              title = "WAD4019-320S"
-              link = "/"/>
-          </div>
+      <div class = "row q-col-gutter-md q-pb-lg">
+        <div class = "col">
+          <house
+            image = "img\img32.png"
+            area = "337 SQ. M"
+            title = "WAD4020-337D"
+            link = "/"/>
+        </div>
 
-          <div class = "col">
-            <house
-              image = "img\img34.png"
-              area = "221 SQ. M"
-              title = "WAD4017-212D"
-              link = "/"/>
-          </div>
+        <div class = "col">
+          <house
+            image = "img\img33.png"
+            area = "320 SQ. M"
+            title = "WAD4019-320S"
+            link = "/"/>
+        </div>
+
+        <div class = "col">
+          <house
+            image = "img\img34.png"
+            area = "221 SQ. M"
+            title = "WAD4017-212D"
+            link = "/"/>
+        </div>
+      </div>
+
+      <div class = "row q-col-gutter-md q-pb-lg">
+        <div class = "col">
+          <house
+            image = "img\img32.png"
+            area = "337 SQ. M"
+            title = "WAD4020-337D"
+            link = "/"/>
+        </div>
+
+        <div class = "col">
+          <house
+            image = "img\img33.png"
+            area = "320 SQ. M"
+            title = "WAD4019-320S"
+            link = "/"/>
+        </div>
+
+        <div class = "col">
+          <house
+            image = "img\img34.png"
+            area = "221 SQ. M"
+            title = "WAD4017-212D"
+            link = "/"/>
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>

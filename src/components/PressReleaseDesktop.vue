@@ -14,6 +14,7 @@
                 <div class = "col">
                     <q-img src = "img\img20.png"/>
                 </div>
+
                 <div class = "col">
                     <div class = "text-h4 text-bold">Well & Able trade company in Shanghai</div>
                     <div class = "text-weight-thin q-pb-md">May 1, 2020 </div>
@@ -28,7 +29,7 @@
                     <q-btn
                         flat label="Learn more."
                         class = " text-weight-regular text-capitalize float-left"
-                        color="secondary" icon-right="arrow_right"/>
+                        color="secondary" icon-right="arrow_right" to = "/news"/>
                 </div>
             </div>
 
@@ -40,6 +41,7 @@
                         title = "Modern Living @Kanyan project to provide affordable housing in laos"
                         link = "/"/>
                 </div>
+
                 <div class = "col">
                     <press
                         img = "img\img22.png"
@@ -47,6 +49,7 @@
                         title = "Affordable Pre-Fabricated Houses in the Philippines. "
                         link = "/"/>
                 </div>
+
                 <div class = "col">
                     <press
                         img = "img\img23.png"
@@ -54,6 +57,7 @@
                         title = "Vietnam Steel Fabricator Visits Well&Able Office.  "
                         link = "/"/>
                 </div>
+
                 <div class = "col">
                     <press
                         img = "img\img24.png"

@@ -1,12 +1,8 @@
 <template>
-    <q-layout>
-        <div v-if="$q.platform.is.desktop">
-            <desktop/>
-        </div>
+  <q-layout>
+    <div v-if="$q.platform.is.desktop"> <desktop/> </div>
 
-        <div v-if="$q.platform.is.mobile">
-            <mobile/>
-        </div>
+    <div v-if="$q.platform.is.mobile"> <mobile/> </div>
     </q-layout>
 </template>
 

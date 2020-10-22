@@ -1,11 +1,8 @@
 <template>
   <q-page class="flex flex-center">
-    <div v-if="$q.platform.is.desktop">
-      <desktop/>
-    </div>
-    <div v-if="$q.platform.is.mobile">
-      <mobile/>
-    </div>
+    <div v-if="$q.platform.is.desktop"> <desktop/> </div>
+
+    <div v-if="$q.platform.is.mobile"> <mobile/> </div>
   </q-page>
 </template>
 

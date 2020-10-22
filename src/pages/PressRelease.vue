@@ -1,14 +1,14 @@
 <template>
-    <q-layout>
-        <div v-if="$q.platform.is.desktop">
-          <desktop/>
-          <footerr/>
-        </div>
+  <q-layout>
+    <div v-if="$q.platform.is.desktop">
+      <desktop/>
+      <footerr/>
+    </div>
 
-        <div v-if="$q.platform.is.mobile">
-            <mobile/>
-        </div>
-    </q-layout>
+    <div v-if="$q.platform.is.mobile">
+      <mobile/>
+    </div>
+  </q-layout>
 </template>
 
 <script>

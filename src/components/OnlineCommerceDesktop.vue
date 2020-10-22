@@ -3,10 +3,10 @@
     <div class = "q-pb-xl">
       <div class = "text-bold text-h5 text-grey float-left"> PREFAB HOUSING</div>
       <div class = "float-right">
-          <div class = "text-weight-regular float-left q-pr-md q-pt-md">SORT BY</div>
-            <q-select square outlined v-model="model" color = "secondary"
-              style="width: 200px" class = "float-right"
-              :options="options" label="LATEST"/>
+        <div class = "text-weight-regular float-left q-pr-md q-pt-md">SORT BY</div>
+        <q-select square outlined v-model="model" color = "secondary"
+          style="width: 200px" class = "float-right"
+          :options="options" label="LATEST"/>
       </div>
     </div>
 
@@ -21,24 +21,24 @@
             class = "q-pb-lg"
           />
 
-          <div class = "text-grey-9 q-pa-xs text-bold">COST PER SQ.M (USD)</div>
-            <q-option-group
-              v-model="group1"
-              :options="cost"
-              size="xs"
-              color="dark"
-              class = "q-pb-lg"
-            />
+        <div class = "text-grey-9 q-pa-xs text-bold">COST PER SQ.M (USD)</div>
+          <q-option-group
+            v-model="group1"
+            :options="cost"
+            size="xs"
+            color="dark"
+            class = "q-pb-lg"
+          />
 
-          <div class = "text-grey-9 q-pa-xs text-bold">STOREY</div>
-            <q-option-group
-              v-model="group2"
-              :options="storey"
-              size="xs"
-              color="dark"
-              class = "q-pb-lg"
-            />
-       </div>
+        <div class = "text-grey-9 q-pa-xs text-bold">STOREY</div>
+          <q-option-group
+            v-model="group2"
+            :options="storey"
+            size="xs"
+            color="dark"
+            class = "q-pb-lg"
+          />
+      </div>
 
       <div class = "col-9 q-pa-xl">
         <div class = "row q-col-gutter-md q-pb-lg">

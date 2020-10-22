@@ -2,9 +2,9 @@
     <q-layout>
         <div class = "orientation-portrait">
             <q-img src="~assets/img02.jpg">
-            <div class="absolute-bottom-right q-pr-xl q-pb-xl headerTitleMobile">
-                    Innovative Building Method
-            </div>
+                <div class="absolute-bottom-right q-pr-xl q-pb-xl headerTitleMobile">
+                        Innovative Building Method
+                </div>
             </q-img>
 
             <div class = "q-pa-md">
@@ -35,52 +35,52 @@
                 </div>
 
                 <q-img src="~assets/img05.png" class="imageContent"/>
-                    <div class = "titleBold q-pt-xl q-pb-xs">
+                <div class = "titleBold q-pt-xl q-pb-xs">
                     Building Materials Place Less Stress on Earth.
-                    </div>
-                    <div class = "q-pb-lg text-weight-thin">
+                </div>
+                <div class = "q-pb-lg text-weight-thin">
                     Lightweight construction and structural resilience do not have to be mutually exclusive.
                     Eco-friendly yet cost-effective buildings can be possible, through the principles of
                     sustainable design and next generation technology. Developed through years of field-tested
                     research and continuous innovation.
-                    </div>
+                </div>
 
                 <q-img src="~assets/img06.png" class="imageContent"/>
-                    <div class = "titleBold q-pt-xl q-pb-xs">
+                <div class = "titleBold q-pt-xl q-pb-xs">
                     Well-positioned to Deliver.
-                    </div>
-                    <div class = "q-pb-lg text-weight-thin">
+                </div>
+                <div class = "q-pb-lg text-weight-thin">
                     Leverage on our dynamic network of manufacturing partners and suppliers in China and
                     all over the world. We have the technical expertise to fabricate the entire array of
                     components that you could possibly need to complete any construction project.
-                    </div>
+                </div>
 
                 <q-img src="~assets/img07.png" class="imageContent"/>
-                    <div class = "titleBold q-pt-xl q-pb-xs">
+                <div class = "titleBold q-pt-xl q-pb-xs">
                     A Perfect Fit.
-                    </div>
-                    <div class = "text-weight-thin">
+                </div>
+                <div class = "text-weight-thin">
                     Looking to create eco-friendly building systems and achieve cost-effective construction?
                     With over twenty five years of experience on construction projects in China and across the
                     globe, our prefabrication methodology are developed on a solid foundation of technical
                     competence and field-tested fundamentals.
-                    </div>
+                </div>
 
                 <div class = "q-pt-xl title"> Engaging Project </div>
 
                 <q-img src="~assets/img08.png" class = "q-pb-xl">
                     <div class="absolute-left text-subtitle2 flex flex-center">
-                    <div class = "captionPhotoMobile text-weight-thin">
-                        With our extensive track record of over 275 major and mid-sized projects in China, Sin
-                        gapore and across the globe, we are well-placed to lead the resurgence of the
-                        pre-fabrication movement and address the growing demand for fast, efficient and sustainable
-                        construction methodology. <br><br>
-                        <q-btn
-                        unelevated
-                        rounded color="secondary"
-                        class = "text-center text-capitalize button q-px-xl"
-                        label="Learn more."/>
-                    </div>
+                        <div class = "captionPhotoMobile text-weight-thin">
+                            With our extensive track record of over 275 major and mid-sized projects in China, Sin
+                            gapore and across the globe, we are well-placed to lead the resurgence of the
+                            pre-fabrication movement and address the growing demand for fast, efficient and sustainable
+                            construction methodology. <br><br>
+                            <q-btn
+                                unelevated
+                                rounded color="secondary"
+                                class = "text-center text-capitalize button q-px-xl"
+                                label="Learn more."/>
+                        </div>
                     </div>
                 </q-img>
 
@@ -90,7 +90,7 @@
                     </div>
                     <q-btn flat label="Learn more."
                         class = "float-right text-capitalize text-weight-light"
-                        color="secondary" icon-right="arrow_right"/>
+                        color="secondary" icon-right="arrow_right" to = "/recentProject"/>
                 </div>
 
                 <card
@@ -115,25 +115,25 @@
 
                 <div class = "q-pt-xl title "> Innovative Products </div>
                 <div class = "q-pb-lg text-weight-thin">
-                With our extensive track record of over 275 major and mid-sized projects in China, Singapore
-                and across the globe, we are well-placed to lead the resurgence of the pre-fabrication
-                movement and address the growing demand for fast, efficient and sustainable construction
-                methodology.
+                    With our extensive track record of over 275 major and mid-sized projects in China, Singapore
+                    and across the globe, we are well-placed to lead the resurgence of the pre-fabrication
+                    movement and address the growing demand for fast, efficient and sustainable construction
+                    methodology.
                 </div>
 
                 <q-card class="my-card" flat square filled>
                     <q-img src="~assets/img16.png"/>
 
                     <q-card-section>
-                    <div class="text-bold">High Frequency Welded H- Beams (HFW)</div>
+                        <div class="text-bold">High Frequency Welded H- Beams (HFW)</div>
                     </q-card-section>
 
                     <q-card-actions>
-                    <q-btn
-                        flat label="Learn more."
-                        class = "text-capitalize"
-                        color="secondary"
-                        icon-right="arrow_right"/>
+                        <q-btn
+                            flat label="Learn more."
+                            class = "text-capitalize"
+                            color="secondary"
+                            icon-right="arrow_right"/>
                     </q-card-actions>
                 </q-card>
 
@@ -141,15 +141,15 @@
                     <q-img src="~assets/img15.png"/>
 
                     <q-card-section>
-                    <div class="text-bold">Besta™ Board <br><br></div>
+                        <div class="text-bold">Besta™ Board <br><br></div>
                     </q-card-section>
 
                     <q-card-actions>
-                    <q-btn
-                        flat label="Learn more."
-                        class = "text-capitalize"
-                        color="secondary"
-                        icon-right="arrow_right"/>
+                        <q-btn
+                            flat label="Learn more."
+                            class = "text-capitalize"
+                            color="secondary"
+                            icon-right="arrow_right"/>
                     </q-card-actions>
                 </q-card>
 
@@ -157,15 +157,15 @@
                     <q-img src="~assets/img14.png"/>
 
                     <q-card-section>
-                    <div class="text-bold">Besta™ HollowCore Pane <br><br></div>
+                        <div class="text-bold">Besta™ HollowCore Pane <br><br></div>
                     </q-card-section>
 
                     <q-card-actions>
-                    <q-btn
-                        flat label="Learn more."
-                        class = "text-capitalize"
-                        color="secondary"
-                        icon-right="arrow_right"/>
+                        <q-btn
+                            flat label="Learn more."
+                            class = "text-capitalize"
+                            color="secondary"
+                            icon-right="arrow_right"/>
                     </q-card-actions>
                 </q-card>
 
@@ -173,31 +173,31 @@
                     <q-img src="~assets/img13.png"/>
 
                     <q-card-section>
-                    <div class="text-bold">Besta™ HollowCore Pane <br><br></div>
+                        <div class="text-bold">Besta™ HollowCore Pane <br><br></div>
                     </q-card-section>
 
                     <q-card-actions>
-                    <q-btn
-                        flat label="Learn more."
-                        class = "text-capitalize"
-                        color="secondary"
-                        icon-right="arrow_right"/>
-                    </q-card-actions>
+                        <q-btn
+                            flat label="Learn more."
+                            class = "text-capitalize"
+                            color="secondary"
+                            icon-right="arrow_right"/>
+                        </q-card-actions>
                 </q-card>
 
                 <q-card class="my-card" flat square filled>
                     <q-img src="~assets/img14.png"/>
 
                     <q-card-section>
-                    <div class="text-bold">Floor Decking <br><br></div>
+                        <div class="text-bold">Floor Decking <br><br></div>
                     </q-card-section>
 
                     <q-card-actions>
-                    <q-btn
-                        flat label="Learn more."
-                        class = "text-capitalize"
-                        color="secondary"
-                        icon-right="arrow_right"/>
+                        <q-btn
+                            flat label="Learn more."
+                            class = "text-capitalize"
+                            color="secondary"
+                            icon-right="arrow_right"/>
                     </q-card-actions>
                 </q-card>
             </div>

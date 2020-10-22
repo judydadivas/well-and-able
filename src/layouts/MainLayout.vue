@@ -2,61 +2,62 @@
   <q-layout view="lHh Lpr lFf">
     <q-header>
       <q-toolbar>
-      <div v-if="$q.platform.is.mobile">
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          color="dark"
-          @click="leftDrawerOpen = !leftDrawerOpen"
-        />
-      </div>
-      <q-item
-        clickable
-        v-ripple
-         to ="/"
-      >
-        <q-item-section>
-          <img src="~assets/img01.jpg" class="q-pl-xl q-py-md"/>
-        </q-item-section>
-      </q-item>
+        <div v-if="$q.platform.is.mobile">
+          <q-btn
+            flat
+            dense
+            round
+            icon="menu"
+            aria-label="Menu"
+            color="dark"
+            @click="leftDrawerOpen = !leftDrawerOpen"
+          />
+        </div>
 
-      <q-tabs v-if="$q.platform.is.desktop" class="text-dark q-pl-xl" indicator-color="transparent" v-model="tab" shrink stretch >
-        <q-route-tab to="/#" label="Project" />
-        <q-route-tab to="/#" label="Building System" />
-        <q-route-tab to="/#" label="Materials" />
-        <q-route-tab to="/pressRelease" label="Press" />
-        <q-route-tab to="/aboutUs" label="About" />
-        <q-route-tab to="/#" label="Contact" />
-      </q-tabs>
+        <q-item
+          clickable
+          v-ripple
+          to ="/"
+        >
+          <q-item-section>
+            <img src="~assets/img01.jpg" class="q-pl-xl q-py-md"/>
+          </q-item-section>
+        </q-item>
 
-      <q-space/>
+        <q-tabs v-if="$q.platform.is.desktop" class="text-dark q-pl-xl" indicator-color="transparent" v-model="tab" shrink stretch >
+          <q-route-tab to="/#" label="Project" />
+          <q-route-tab to="/#" label="Building System" />
+          <q-route-tab to="/#" label="Materials" />
+          <q-route-tab to="/pressRelease" label="Press" />
+          <q-route-tab to="/aboutUs" label="About" />
+          <q-route-tab to="/#" label="Contact" />
+        </q-tabs>
 
-      <q-tabs v-if="$q.platform.is.desktop" class="text-dark q-pl-xl" indicator-color="transparent" v-model="tab" shrink stretch>
-        <q-route-tab to="/onlineCommerce" label="Online Shop" align="left"/>
-        <q-route-tab to="/#" label="Get A Qoutation" align="left"/>
-      </q-tabs>
+        <q-space/>
+
+        <q-tabs v-if="$q.platform.is.desktop" class="text-dark q-pl-xl" indicator-color="transparent" v-model="tab" shrink stretch>
+          <q-route-tab to="/onlineCommerce" label="Online Shop" align="left"/>
+          <q-route-tab to="/#" label="Get A Qoutation" align="left"/>
+        </q-tabs>
       </q-toolbar>
     </q-header>
 
-  <div v-if="$q.platform.is.mobile">
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-      content-class="bg-grey-1"
-    >
-      <q-list class="q-pt-md">
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>
-  </div>
+    <div v-if="$q.platform.is.mobile">
+      <q-drawer
+        v-model="leftDrawerOpen"
+        show-if-above
+        bordered
+        content-class="bg-grey-1"
+      >
+        <q-list class="q-pt-md">
+          <EssentialLink
+            v-for="link in essentialLinks"
+            :key="link.title"
+            v-bind="link"
+          />
+        </q-list>
+      </q-drawer>
+    </div>
 
     <q-page-container>
       <router-view />

@@ -10,11 +10,11 @@
 
     <div v-if="$q.platform.is.mobile">
       <q-img src = "~assets/img19.png">
-            <div class="absolute-bottom-left text-subtitle2 headerTitleLeftMobile"> Product Catalog </div>
-        </q-img>
-      <div class = "q-pa-md">
-        <mobile/>
-      </div>
+        <div class="absolute-bottom-left text-subtitle2 headerTitleLeftMobile">
+          Product Catalog
+        </div>
+      </q-img>
+      <div class = "q-pa-md"> <mobile/> </div>
     </div>
   </q-layout>
 </template>

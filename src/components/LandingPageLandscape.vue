@@ -2,7 +2,7 @@
     <q-layout>
         <q-img src="~assets/img02.jpg">
             <div class="absolute-bottom-right q-pr-xl q-pb-xl headerTitleMobile">
-                    Innovative Building Method
+                Innovative Building Method
             </div>
         </q-img>
 
@@ -26,12 +26,13 @@
             <div class = "titleBold q-pt-xl q-pb-xs">
                 Pre-fabrication with an Architectural Direction.
             </div>
+
             <div class = "q-pb-lg text-weight-thin">
                 Our design expertise allows us to implement your “architectural” vision, integrating the
                 pre-fabrication process seamlessly into your construction needs. We design intelligent
                 off-site assembly and site specific installations to achieve an optimal rate of
                 construction that traditional construction cannot match.
-                </div>
+            </div>
 
             <q-img src="~assets/img05.png" class="imageContent"/>
             <div class = "titleBold q-pt-xl q-pb-xs">
@@ -92,146 +93,147 @@
                 <q-btn
                     flat label="View more."
                     class = "float-right text-capitalize text-weight-regular"
-                    color="secondary" icon-right="arrow_right"/>
+                    color="secondary" icon-right="arrow_right" to = "/recentProject"/>
             </div>
 
             <div class = "row q-col-gutter-xs">
                 <div class = "col">
-                <card
-                    image = "img\img10.png"
-                    country = "SINGAPORE"
-                    title = "5-Storey Mixed Development with Factory Building"/>
+                    <card
+                        image = "img\img10.png"
+                        country = "SINGAPORE"
+                        title = "5-Storey Mixed Development with Factory Building"/>
                 </div>
 
                 <div class = "col">
-                <card
-                    image = "img\img11.png"
-                    country = "CHINA"
-                    title = "12-Storey Apartments Zhuhai"/>
+                    <card
+                        image = "img\img11.png"
+                        country = "CHINA"
+                        title = "12-Storey Apartments Zhuhai"/>
                 </div>
 
                 <div class = "col">
-                <card
-                    image = "img\img09.jpg"
-                    country = "SINGAPORE"
-                    title = "4 Blocks of 12-Storey Dormitory"/>
+                    <card
+                        image = "img\img09.jpg"
+                        country = "SINGAPORE"
+                        title = "4 Blocks of 12-Storey Dormitory"/>
                 </div>
 
                 <div class = "col">
-                <card
-                    image = "img\img12.png"
-                    country = "AUSTRALIA"
-                    title = "3-Storey Apartments In Perth"/>
+                    <card
+                        image = "img\img12.png"
+                        country = "AUSTRALIA"
+                        title = "3-Storey Apartments In Perth"/>
                 </div>
             </div>
 
             <div class = "q-pt-xl title "> Innovative Products </div>
-                <div class = "q-pb-lg text-weight-thin">
+            <div class = "q-pb-lg text-weight-thin">
                 With our extensive track record of over 275 major and mid-sized projects in China, Singapore
                 and across the globe, we are well-placed to lead the resurgence of the pre-fabrication
                 movement and address the growing demand for fast, efficient and sustainable construction
                 methodology.
-                </div>
+            </div>
 
-                <q-card class="my-card" flat square filled>
-                    <q-img src="~assets/img16.png"/>
+            <q-card class="my-card" flat square filled>
+                <q-img src="~assets/img16.png"/>
 
-                    <q-card-section>
+                <q-card-section>
                     <div class="text-bold">High Frequency Welded H- Beams (HFW)</div>
-                    </q-card-section>
+                </q-card-section>
 
-                    <q-card-actions>
+                <q-card-actions>
                     <q-btn
                         flat label="Learn more."
                         class = "text-capitalize"
                         color="secondary"
                         icon-right="arrow_right"/>
-                    </q-card-actions>
-                </q-card>
+                </q-card-actions>
+            </q-card>
 
-                <q-card class="my-card" flat square filled>
-                    <q-img src="~assets/img15.png"/>
+            <q-card class="my-card" flat square filled>
+                <q-img src="~assets/img15.png"/>
 
-                    <q-card-section>
+                <q-card-section>
                     <div class="text-bold">Besta™ Board <br><br></div>
-                    </q-card-section>
+                </q-card-section>
 
-                    <q-card-actions>
+                <q-card-actions>
                     <q-btn
                         flat label="Learn more."
                         class = "text-capitalize"
                         color="secondary"
                         icon-right="arrow_right"/>
-                    </q-card-actions>
-                </q-card>
+                </q-card-actions>
+            </q-card>
 
-                <q-card class="my-card" flat square filled>
-                    <q-img src="~assets/img14.png"/>
+            <q-card class="my-card" flat square filled>
+                <q-img src="~assets/img14.png"/>
 
-                    <q-card-section>
+                <q-card-section>
                     <div class="text-bold">Besta™ HollowCore Pane <br><br></div>
-                    </q-card-section>
+                </q-card-section>
 
-                    <q-card-actions>
+                <q-card-actions>
                     <q-btn
                         flat label="Learn more."
                         class = "text-capitalize"
                         color="secondary"
                         icon-right="arrow_right"/>
-                    </q-card-actions>
-                </q-card>
+                </q-card-actions>
+            </q-card>
 
-                <q-card class="my-card" flat square filled>
-                    <q-img src="~assets/img13.png"/>
+            <q-card class="my-card" flat square filled>
+                <q-img src="~assets/img13.png"/>
 
-                    <q-card-section>
+                <q-card-section>
                     <div class="text-bold">Besta™ HollowCore Pane <br><br></div>
-                    </q-card-section>
+                </q-card-section>
 
-                    <q-card-actions>
+                <q-card-actions>
                     <q-btn
                         flat label="Learn more."
                         class = "text-capitalize"
                         color="secondary"
                         icon-right="arrow_right"/>
-                    </q-card-actions>
-                </q-card>
+                </q-card-actions>
+            </q-card>
 
-                <q-card class="my-card" flat square filled>
-                    <q-img src="~assets/img14.png"/>
+            <q-card class="my-card" flat square filled>
+                <q-img src="~assets/img14.png"/>
 
-                    <q-card-section>
+                <q-card-section>
                     <div class="text-bold">Floor Decking <br><br></div>
-                    </q-card-section>
+                </q-card-section>
 
-                    <q-card-actions>
+                <q-card-actions>
                     <q-btn
                         flat label="Learn more."
                         class = "text-capitalize"
                         color="secondary"
                         icon-right="arrow_right"/>
-                    </q-card-actions>
-                </q-card>
+                </q-card-actions>
+            </q-card>
         </div>
 
         <div class = "bg-grey-4 q-pa-md">
-                <div class = "title q-pb-lg"> Contact Us. </div>
-                <div class = "text-weight-light">
-                    Well & Able Holdings Pte Ltd is a company committed in the pursuit of innovative,
-                    environment-friendly and energy-saving building system by creating, producing and
-                    providing products and services that perceptively engage customers globally.
-                    <br><br>
-                    This Vision is supported by two fundamental principles which provide the foundation
-                    for all our activities: Organizational Excellence and Core Values. This requires
-                    improving performance continually inprinci all levels and areas of the organization.
-                    Our performance will be guided by a clear and concise strategic statement by an ongoing
-                    search for excellence within our operational and staff functions. Acquiring excellence
-                    requires hiring, developing and retaining a diverse workforce with the highest caliber to
-                    achieve world class status.<br><br>
-                </div>
-                <q-btn unelevated rounded color="secondary" label="Let us talk." class="q-px-xl text-weight-light text-capitalize" />
+            <div class = "title q-pb-lg"> Contact Us. </div>
+            <div class = "text-weight-light">
+                Well & Able Holdings Pte Ltd is a company committed in the pursuit of innovative,
+                environment-friendly and energy-saving building system by creating, producing and
+                providing products and services that perceptively engage customers globally.
+                <br><br>
+                This Vision is supported by two fundamental principles which provide the foundation
+                for all our activities: Organizational Excellence and Core Values. This requires
+                improving performance continually inprinci all levels and areas of the organization.
+                Our performance will be guided by a clear and concise strategic statement by an ongoing
+                search for excellence within our operational and staff functions. Acquiring excellence
+                requires hiring, developing and retaining a diverse workforce with the highest caliber to
+                achieve world class status.<br><br>
             </div>
-            <footerMobile/>
+            <q-btn unelevated rounded color="secondary" label="Let us talk."
+                class="q-px-xl text-weight-light text-capitalize" />
+        </div>
+        <footerMobile/>
     </q-layout>
 </template>
 

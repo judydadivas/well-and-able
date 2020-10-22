@@ -10,37 +10,37 @@
         </div>
 
         <div class = "orientation-portrait">
-        <div class = "q-pt-xl">
-            <q-img src="~assets/img25.png" class="imageContent"/>
-            <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
-                Structural <q-space/> Design
+            <div class = "q-pt-xl">
+                <q-img src="~assets/img25.png" class="imageContent"/>
+                <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
+                    Structural <q-space/> Design
+                </div>
+                <div class = "text-weight-thin"></div>
             </div>
-            <div class = "text-weight-thin"></div>
-        </div>
 
-        <div class = "q-pt-xl">
-            <q-img src="~assets/img26.png" class="imageContent"/>
-            <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
-                Bim Rivet Modeling and MEP Services
+            <div class = "q-pt-xl">
+                <q-img src="~assets/img26.png" class="imageContent"/>
+                <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
+                    Bim Rivet Modeling and MEP Services
+                </div>
+                <div class = "text-weight-thin"></div>
             </div>
-            <div class = "text-weight-thin"></div>
-        </div>
 
-        <div class = "q-pt-xl">
-            <q-img src="~assets/img27.png" class="imageContent"/>
-            <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
-                Building & Architectural Consultancy Services
+            <div class = "q-pt-xl">
+                <q-img src="~assets/img27.png" class="imageContent"/>
+                <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
+                    Building & Architectural Consultancy Services
+                </div>
+                <div class = "text-weight-thin"></div>
             </div>
-            <div class = "text-weight-thin"></div>
-        </div>
 
-        <div class = "q-pt-xl">
-            <q-img src="~assets/img28.png" class="imageContent"/>
-            <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
-                Project <q-space/> Management
+            <div class = "q-pt-xl">
+                <q-img src="~assets/img28.png" class="imageContent"/>
+                <div class = "text-bold text-h5 text-center q-pt-md" style = "color: #0180a5">
+                    Project <q-space/> Management
+                </div>
+                <div class = "text-weight-thin"></div>
             </div>
-            <div class = "text-weight-thin"></div>
-        </div>
         </div>
 
         <div class = "orientation-landscape">

@@ -24,7 +24,7 @@
         <q-btn
             flat label="Learn more."
             class = " text-weight-regular text-capitalize float-left"
-            color="secondary" icon-right="arrow_right"/>
+            color="secondary" icon-right="arrow_right" to = "/news"/>
         </div>
 
         <press
